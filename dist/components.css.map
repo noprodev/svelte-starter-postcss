@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "components.css",
+  "sources": [
+    "../src/App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\nexport let greeting = \"Hello World!\";\n</script>\n\n<style>\nmain {\n    width: 35em;\n    max-width: calc(100vw - 3em)\n}\nmain > h1 {\n        color: green;\n    }\n</style>\n\n<main>\n    <h1>{greeting}</h1>\n</main>"
+  ],
+  "names": [],
+  "mappings": "AAKA,IAAI,cAAC,CAAC,AACF,KAAK,CAAE,IAAI,CACX,SAAS,CAAE,KAAK,KAAK,CAAC,CAAC,CAAC,GAAG,CAAC;AAChC,CAAC,AACD,kBAAI,CAAG,EAAE,cAAC,CAAC,AACH,KAAK,CAAE,KAAK,AAChB,CAAC"
+}
