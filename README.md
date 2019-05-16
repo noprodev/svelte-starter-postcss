@@ -24,6 +24,7 @@ npm install
 - You can use PostCSS in your static stylesheets AND Svelte components!
 
 ```HTML
+<!-- App.svelte -->
 <style>
 main {
     width: 35em;
@@ -50,7 +51,12 @@ npm run build
 ```
 
 ### Development
-(build on file change, serve on <code>localhost:5000</code>, live reload)
+
+Development mode will:
+
+- build on file change
+- serve locally at <code>localhost:5000</code>
+- live reload
 
 ```bash
 npm run dev
