@@ -1,6 +1,3 @@
-// import cssnano from  "cssnano";
-// import postcss_color_mod from  "postcss-color-mod-function";
-// import postcss_preset_env from  "postcss-preset-env";
 import commonjs from  "rollup-plugin-commonjs";
 import livereload from  "rollup-plugin-livereload";
 import postcss from  "rollup-plugin-postcss";
