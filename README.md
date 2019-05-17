@@ -19,8 +19,8 @@ npm install
 
 ## Use PostCSS in Your Svelte Project
 
-- [postcss-preset-env](https://preset-env.cssdb.org/) and [PostCSS color-mod() Function](https://github.com/jonathantneal/postcss-color-mod-function) are enabled already.
-- Add plugins as required.
+- [postcss-preset-env](https://preset-env.cssdb.org/), [PostCSS color-mod() Function](https://github.com/jonathantneal/postcss-color-mod-function) and [cssnano](https://cssnano.co/) are enabled already.
+- Add plugins as required (use <code>postcss.config.js</code>).
 - You can use PostCSS in your static stylesheets AND Svelte components!
 
 ```HTML
