@@ -5,8 +5,8 @@
     "../src/App.svelte"
   ],
   "sourcesContent": [
-    "<script>\nexport let greeting = \"Hello World!\";\n</script>\n\n<style>\nmain {\n    width: 35em;\n    max-width: calc(100vw - 3em)\n}\nmain > h1 {\n        color: green;\n    }\n</style>\n\n<main>\n    <h1>{greeting}</h1>\n</main>"
+    "<script>\nexport let greeting = \"Hello World!\";\n</script>\n\n<style lang=\"postcss\">main{width:35em;max-width:calc(100vw - 3em);margin:1.5em auto}main>h1{color:green}</style>\n\n<main>\n    <h1>{greeting}</h1>\n</main>"
   ],
   "names": [],
-  "mappings": "AAKA,IAAI,cAAC,CAAC,AACF,KAAK,CAAE,IAAI,CACX,SAAS,CAAE,KAAK,KAAK,CAAC,CAAC,CAAC,GAAG,CAAC;AAChC,CAAC,AACD,kBAAI,CAAG,EAAE,cAAC,CAAC,AACH,KAAK,CAAE,KAAK,AAChB,CAAC"
+  "mappings": "AAIsB,kBAAI,CAAC,MAAM,IAAI,CAAC,UAAU,KAAK,KAAK,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC,OAAO,KAAK,CAAC,IAAI,CAAC,kBAAI,CAAC,gBAAE,CAAC,MAAM,KAAK,CAAC"
 }

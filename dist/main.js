@@ -284,10 +284,10 @@
     			main = element("main");
     			h1 = element("h1");
     			t = text(ctx.greeting);
-    			h1.className = "svelte-uijun7";
-    			add_location(h1, file, 15, 4, 186);
-    			main.className = "svelte-uijun7";
-    			add_location(main, file, 14, 0, 175);
+    			h1.className = "svelte-8xsxho";
+    			add_location(h1, file, 7, 4, 183);
+    			main.className = "svelte-8xsxho";
+    			add_location(main, file, 6, 0, 172);
     		},
 
     		l: function claim(nodes) {
